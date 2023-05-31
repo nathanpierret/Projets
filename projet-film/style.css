@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1
+{
+    margin-bottom: 2rem;
+}
+
+.conteneur
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto 20px;
+    border: 0 solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 4px gray;
+}
+
+.card-title
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    align-items: center;
+    padding-right: 11px;
+    padding-left: 11px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-btn-detail
+{
+    border: 2px #cb4624 solid;
+    background-color: #cb4624;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+a
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.card-header
+{
+    width: 320px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.card-data
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card-year
+{
+    color: #cb4624;
+    font-size: 24px;
+}
+
+.card-time
+{
+    color: #cb4624;
+    font-size: 24px;
+}
+
+.gras
+{
+    font-weight: bold;
+}
+
+.card2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 20px;
+    border: 0 solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 4px gray;
+}
+
+.card-body2
+{
+    align-items: center;
+    padding-right: 11px;
+    padding-left: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-btn-retour
+{
+    border: 2px #cb4624 solid;
+    background-color: #cb4624;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-header2
+{
+    margin-bottom: 20px;
+}

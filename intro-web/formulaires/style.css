@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 90%;
+    margin: 20px auto;
+}
+
+form
+{
+    width: 50%;
+    margin: 10px auto;
+}
+
+form > *
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+form > label
+{
+    font-weight: bold;
+}
+
+form > input
+{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+}
+
+form > input[type=submit]
+{
+    width: 100%;
+    background: coral;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.erreur-validation
+{
+    color: red;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+body
+{
+    margin: 30px;
+}
+
+td
+{
+    border: 1px solid coral;
+    padding: 10px;
+    text-align: center;
+}
+
+th
+{
+    border: 1px solid coral;
+    padding: 10px;
+    text-align: center;
+    background: coral;
+    color: white;
+}
+
+table
+{
+    border-collapse: collapse;
+}

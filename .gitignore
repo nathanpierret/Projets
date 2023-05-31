@@ -1,0 +1,3 @@
+# Project exclude paths
+/php-prettier/node_modules/
+/projet-commande/node_modules/

@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Client {
+    -noClient : int
+    -nom : string
+    -rueClient : string
+    -CPClient : string
+    -villeClient : string
+    -paysClient : string
+    -telephoneClient : string
+}
+
+class Commande {
+    -noCommande : int
+    -dateCommande : DateTime
+    -totalHT()
+    -totalTVA()
+    -totalTTC()
+    +ajouterProduit(produit : Produit, quantite : int)
+    +editer()
+}
+
+class QuantiteProduit {
+    -quantite : float
+    +totalHTProduit()
+    +totalTVAProduit()
+    +totalTTCProduit()
+}
+
+class Produit {
+    -refProduit : int
+    -description : string
+    -unite : string
+    -prixUnitHT : float
+    -pourcentageTVA : int
+}
+
+Commande "0..*  " --> "1..1 " Client : < possède
+Commande "1..1" --> "0..*  " QuantiteProduit  : > contient
+QuantiteProduit "0..* " --> "1..1 " Produit : < référencie
+
+@enduml

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/php-db-biblio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-shopping-cart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projet-database-etudiant" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projet-grid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projet-modelisation/projet-formation" vcs="Git" />
+  </component>
+</project>

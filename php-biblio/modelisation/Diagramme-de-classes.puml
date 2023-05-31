@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Livre {
+    -isbn : string
+    -titre : string
+    -nbPages : int
+    -dateParution : DateTime
+}
+class Auteur {
+    -prenom : string
+    -nom : string
+}
+
+class Categorie {
+    -libelle : string
+}
+
+class Editeur {
+    -nom : string
+    -ville : string
+}
+
+Livre "0..*   " --> "1..1  " Auteur : >  est écrit par
+Livre "0..* " --> "1..1 " Categorie : >  appartient
+Livre "0..*" --> "1..1    " Editeur : > est édité par
+
+@enduml

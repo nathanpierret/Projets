@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto;
+    border: 0 solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.card-title
+{
+    color: brown;
+    font-family: 'Manrope', sans-serif;
+    font-size: 26px;
+}
+
+.card-price
+{
+    color: green;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+i
+{
+    color: red;
+    font-size: 22px;
+    margin-left: 8px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 11px;
+    padding-left: 11px;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-text
+{
+    text-align: justify;
+    font-family: 'Manrope', sans-serif;
+}
+
+.card-btn-detail
+{
+    font-family: 'Manrope', sans-serif;
+    border: 2px orange solid;
+    background-color: orange;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.card-header
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
